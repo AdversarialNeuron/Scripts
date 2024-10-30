@@ -1,0 +1,1 @@
+Get-ADComputer -Filter * -Property Name, IPv4Address | Select-Object Name, IPv4Address | Sort-Object Name | Format-Table -AutoSize
